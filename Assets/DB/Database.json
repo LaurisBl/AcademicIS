@@ -1,0 +1,63 @@
+{
+    "UserID": 1,
+    "users": [
+        {
+            "Username": "Admin",
+            "Password": "Admin",
+            "Permissions": 0
+        },
+        {
+            "Username": "Igor",
+            "Password": "Katin",
+            "Permissions": 1
+        },
+        {
+            "Username": "Dainius",
+            "Password": "Genzuras",
+            "Permissions": 2
+        }
+    ],
+    "students": [
+        {
+            "FirstName": "Dainius",
+            "LastName": "Genzuras",
+            "StudentCode": "s840815",
+            "GroupID": 0
+        }
+    ],
+    "lecturers": [
+        {
+            "FirstName": "Igor",
+            "LastName": "Katin"
+        }
+    ],
+    "groups": [
+        {
+            "GroupName": "PI22A"
+        }
+    ],
+    "lectures": [
+        {
+            "LectureName": "Strukturinis programavimas",
+            "GroupID": 0,
+            "LecturerID": 0
+        },
+        {
+            "LectureName": "ABC2",
+            "GroupID": 0,
+            "LecturerID": 0
+        }
+    ],
+    "grades": [
+        {
+            "LectureID": 0,
+            "StudentID": 0,
+            "Grade": 5
+        },
+        {
+            "LectureID": 1,
+            "StudentID": 0,
+            "Grade": 8
+        }
+    ]
+}
